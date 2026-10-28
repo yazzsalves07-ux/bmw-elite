@@ -1,0 +1,119 @@
+/* CONFIGURAÇÃO GERAL */
+body {
+    margin: 0;
+    font-family:
+        Arial,
+        sans-serif;
+    background-color:
+        #eeeeee;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 3px solid rgb(244, 7, 7);
+    background-color: rgb(250, 238, 238);
+}
+
+/* CABEÇALHO */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid rgb(7, 4, 4);
+}
+
+/* LOGO */
+.logo {
+    width: 150px;
+    padding: 30px 10px;
+    text-align: center;
+    /* border: 3px solid black; */
+    border-radius: 0px;
+}
+
+/* NAVEGAÇÃO */
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgb(179, 41, 41);
+    border-radius: 15px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 3px solid rgb(20, 20, 20);
+}
+
+/* PERFIL */
+
+.perfil {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    border-radius: 50%;
+
+
+}
+
+/* ÁREA DOS CARDS */
+.cards {
+    width: 65%;
+    display: flex;
+    gap: 20px;
+        flex-wrap: wrap;
+
+}
+
+/* CARD */
+.card {
+    background-color: rgb(170, 70, 70);
+    flex: 1 1 40%;
+    width: 50%;
+    min-height: 280px;
+    padding: 20px;
+    border: 3px solid rgb(255, 1, 1);
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 15px;
+    padding: 25px;
+    min-height: 100px;
+    border: 3px solid rgb(14, 13, 13);
+}
+  
+.card{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex: 1 1 40%;
+    background-color: brown;
+     border: 3px solid rgb(255, 1, 1);
+     flex-wrap: wrap;
+}
